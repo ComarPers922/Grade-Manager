@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
-
+//***********主程序***************
+while(!GradeManager.ReadyToExit)
+{
+    GradeManager.displayMenu()
+}
